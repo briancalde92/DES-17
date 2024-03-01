@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio17</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <h1 class="banner-head">Parrilla buen gusto</h1>
+        </div>
+    </header>
+    <main>
+        <div class="section_cards">
+            <h2 class="section_cards-h2"> Nuestros cortes</h2>
+            <div class="cards_group" id="cardContainer">
+            </div>
+        </div>
+        </div>
+        <div class="client_order-header">
+            <h3 class="carrito_h3">Tu carrito</h3>
+        </div>
+        <div class="client-order">
+            <div class="price_container">
+                <p class="total_text">Total</p>
+                <p id="totalPrice"></p>
+            </div>
+            <div id="cartList">
+            </div>
+        </div>
+        </div>
+        <form>
+        <div class="client">
+            <h3 class="datos_h3">Tus datos</h3>
+            <div class="client_info">
+                <label class="client_label" for="clientName">Nombre</label>
+                <input type="text"  class="client_input" id="clientName">
+            </div>
+            <p id="nameError"></p>
+            <div class="client_info">
+                <label class="client_label" for="adress">Direccion</label>
+                <input type="text"  class="client_input" id="adress">
+            </div>
+            <p id="adressError"></p>
+            <div class="client_info">
+                <label class="client_label" for="email">Email</label>
+                <input type="email" class="client_input" id="email">
+            </div>
+            <p id="emailError"></p>
+        </div>
+        <div class="btn-container">
+            <button class="btn" id="order-btn"> Enviar </button>
+        </div>
+    </form>
+    </main>
+<script src="./js/index.js"></script>
+
+</body>
+
+</html>
